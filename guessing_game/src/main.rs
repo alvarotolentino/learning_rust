@@ -8,13 +8,12 @@ fn main() {
     println!("The secret number is: {}", secret_number);
 
     let mut guess = String::new();
-
+    println!("Enter a number");
     io::stdin()
         .read_line(&mut guess)
         .expect("Failed to read line");
 
     let guess: u32 = guess.trim().parse().expect("Please type a number!");
-    
     println!("You guessed: {}", guess);
 
     match guess.cmp(&secret_number) {
