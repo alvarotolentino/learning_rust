@@ -1,5 +1,5 @@
 [package]
-name = "variables"
+name = "standard"
 version = "0.1.0"
 authors = ["Alvaro Tolentino <alvarotolentinou@gmail.com>"]
 edition = "2018"
